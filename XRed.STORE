@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gracias | XRed</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #121212, #1f1f1f, #ff4b2b);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+      color: #f5f5f5;
+      text-align: center;
+    }
+
+    .container {
+      background: rgba(31, 31, 31, 0.85);
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(255, 75, 43, 0.8);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #ff4b2b;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      animation: glow 2.5s ease-in-out infinite alternate;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.6;
+      color: #ddd;
+      margin-bottom: 35px;
+    }
+
+    .signature {
+      font-style: italic;
+      color: #ff7043;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      background-color: #ff4b2b;
+      border: none;
+      padding: 14px 40px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      border-radius: 40px;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 5px 15px rgba(255, 75, 43, 0.6);
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #e03e1d;
+      box-shadow: 0 8px 25px rgba(224, 62, 29, 0.8);
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 8px #ff4b2b, 0 0 12px #ff7043, 0 0 20px #ff4b2b;
+      }
+      to {
+        text-shadow: 0 0 20px #ff4b2b, 0 0 30px #ff7043, 0 0 40px #ff4b2b;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Gracias por confiar pi en XRed!</h1>
+    <p>Tu apoyo nos impulsa a crear moda que trasciende. Esperamos que cada prenda te haga sentir único y auténtico.</p>
+    <p class="signature">— El equipo XRed</p>
+    <a href="https://xred.com" target="_blank" class="btn">Visita nuestra tienda</a>
+  </div>
+</body>
+</html>
