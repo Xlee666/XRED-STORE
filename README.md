@@ -30,7 +30,7 @@
     <div class="producto">
       <img src="camisa2.jpg" alt="Camisa XRed 2" />
       <h3>Camisa XRed Diseño Especial</h3>
-      <p>$45</p>
+      <p>$29,99</p>
       <a href="https://wa.me/tu-numero" target="_blank" class="whatsapp-button">Comprar</a>
     </div>
   </section>
